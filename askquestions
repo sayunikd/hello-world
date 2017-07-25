@@ -1,0 +1,11 @@
+#!/bin/bash
+
+y=0
+for y in 1 2 3 4 5
+do 
+
+((x=$y+5))
+echo $x
+done
+echo " "
+
